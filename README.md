@@ -8,6 +8,7 @@ Start with a queue (or a list) to represent the ready queue of processes.Initial
 
 
 ## PROGRAM:
+```python
 #include<stdio.h>
 int main()
 {
@@ -50,7 +51,7 @@ printf("\n %d\t %d\t %d\t %d\t %d\t %d\t %d\t%5.2f",i,at[i],bt[i],st[i],ft[i],wt
 }
 printf("\n--------------------------------------------------------------");
 printf("\n Average waiting time is %5.2f\n average tat is%5.2f",awt,atat); }
-
+```
 
 ## OUTPUT:
 ![output](./e1.png)
@@ -66,6 +67,7 @@ Initialize variables and arrays to store process information, such as process ID
 
 
 ## PROGRAM:
+```python
 #include<stdio.h>
 int main()
 {
@@ -125,7 +127,7 @@ att=att/n;
 printf("\nAverage waiting time is %5.2f",awt);
 printf("\nAverage turn around time is %5.2f",att);
 }
-
+```
 ## OUTPUT:
 
 ![output](./e2.png)
@@ -142,6 +144,7 @@ d. If a process is available (shortest_job != -1), execute the selected process.
 
 
 ## PROGRAM:
+```python
 #include <stdio.h>
 
 int main() {
@@ -227,7 +230,7 @@ int main() {
 
     return 0;
 }
-
+```
 ## OUTPUT:
 
 ![output](./e3.png)
@@ -246,6 +249,7 @@ Display the scheduling results, including process ID (PRO), arrival time (AT), i
 
 
 ## PROGRAM:
+```python
 #include<stdio.h>
 int main()
 {
@@ -362,7 +366,7 @@ atat=atat/n;
 printf("\nAvg waiting time is %5.2f ",awt );
 printf("\nAvg turn around time is %5.2f",atat);
 }
-
+```
 ## OUTPUT:
 ![output](./e4.png)
 
@@ -380,6 +384,7 @@ Initialize the necessary variables and data structures, including the struct Pro
 
 
 ## PROGRAM:
+```python
 #include <stdio.h>
 
 // Structure to represent a process
@@ -454,7 +459,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 ## OUTPUT:
 ![output](./e5.png)
@@ -473,6 +478,7 @@ Initialize variables and arrays to store process information, scheduling data, a
 
 
 ## PROGRAM:
+```python
 #include<stdio.h>
 int main()
 {
@@ -548,7 +554,7 @@ awt=awt/n;
 printf("The average waiting time is: %5.2f\n",awt);
 printf("The average turn around time is: %5.2f",atat);
 }
-
+```
 ## OUTPUT:
 
 ![output](./e6.png)
