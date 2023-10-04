@@ -67,7 +67,9 @@ Initialize variables and arrays to store process information, such as process ID
 
 
 ## PROGRAM:
-```python
+```
+Developed by: Ganesh R
+Reg No: 212222240029
 #include<stdio.h>
 int main()
 {
