@@ -9,6 +9,10 @@ Start with a queue (or a list) to represent the ready queue of processes.Initial
 
 ## PROGRAM:
 ```python
+Developed by: Ganesh R
+Reg No: 212222240029
+
+
 #include<stdio.h>
 int main()
 {
